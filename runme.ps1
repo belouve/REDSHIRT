@@ -35,10 +35,11 @@ $obj.SendKeys([char]175)
 $obj.SendKeys([char]175)
 Start-Sleep 1
 Write-Host "               ... "
-Start-Sleep 5
+Start-Sleep 3
 # octothorpe the next line to NOT have it muted
 $obj.SendKeys([char]173)
-# Start http://www.priceisrightfailhorn.com/
+Start-Sleep 1
+Start http://www.priceisrightfailhorn.com/
 # Remove comment octothorpe from below lines to attempt Log Clearing
 # Write-Host " (Attempt to clear Security and Application Event Log) "
 # Start-Sleep 1
