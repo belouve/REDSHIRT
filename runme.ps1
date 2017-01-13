@@ -18,20 +18,24 @@ Start-Sleep 1
 Write-Host " My voice is my passport, verify me "
 Write-Host "     LOL U LOSE"
 $obj.SendKeys([char]175)
+$obj.SendKeys([char]175)
 Start-Sleep 1
 Write-Host " I'm in your base, stealin' your flag "
 Write-Host "      LOL U LOSE"
+$obj.SendKeys([char]175)
 $obj.SendKeys([char]175)
 Start-Sleep 1
 Write-Host " My voice is my passport, verify me "
 Write-Host "       LOL U LOSE"
 $obj.SendKeys([char]175)
+$obj.SendKeys([char]175)
 Start-Sleep 1
 Write-Host " Wait for it... "
 $obj.SendKeys([char]175)
+$obj.SendKeys([char]175)
 Start-Sleep 1
 Write-Host "               ... "
-Start-Sleep 1
+Start-Sleep 5
 # octothorpe the next line to NOT have it muted
 $obj.SendKeys([char]173)
 # Start http://www.priceisrightfailhorn.com/
