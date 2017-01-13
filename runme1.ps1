@@ -3,6 +3,7 @@ Start-Sleep 1
 Write-Host " My execution policy was: "
 Get-ExecutionPolicy
 $obj = new-object -com wscript.shell
+# 175 is Volume UP, will unmute if muted.  (175 is volume down)
 $obj.SendKeys([char]175)
 Start-Sleep 3
 Write-Host " My voice is my passport, verify me "
@@ -38,7 +39,8 @@ $obj.SendKeys([char]175)
 Start-Sleep 1
 Write-Host "               ... "
 Start-Sleep 3
-# octothorpe the next line to NOT have it muted
+# octothorpe the next SendKeys line to NOT have it muted
+# 173 is Mute
 $obj.SendKeys([char]173)
 Start-Sleep 1
 Start http://www.priceisrightfailhorn.com/
