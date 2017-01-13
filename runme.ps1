@@ -1,4 +1,5 @@
 clear
+Start-Sleep 1
 Write-Host " My execution policy was: "
 Get-ExecutionPolicy
 $obj = new-object -com wscript.shell
