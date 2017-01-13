@@ -21,6 +21,8 @@ Write-Host "       LOL U LOSE"
 Start-Sleep 1
 Write-Host " Wait for it... "
 Start-Sleep 1
+Write-Host "               ... "
+Start-Sleep 1
 Start http://www.priceisrightfailhorn.com/
 # Remove comment octothorpe from below lines to attempt Log Clearing
 # Write-Host " (Attempt to clear Security and Application Event Log) "
