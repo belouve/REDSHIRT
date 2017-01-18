@@ -25,10 +25,8 @@ the timer and displays a few messages to the player.  While the box firmware
 is running, a 16 digit code is displayed, this is a ciphertext that encodes
 data about the current session.  See "Operation Details" below for more info.
 
-The lid is monitored with a reed switch in the body and a magnet inserted in 
-the rim of the lid.  A bottom access panel exists that uses a magnetic
-child-proof latch.  Holding a magnet on the bottom of the box ~2 in from the 
-front of the box in the center will unlatch it and provide access to the 
+The lid is monitored with a reed switch in the body and ███████████████████████.  A bottom access panel exists that uses a ██████████████████████████.  Holding a ████████████████████ ██████████ ~2 in from ███ 
+██████████████████ ██████████ will unlatch it and provide access to the 
 internals of the box.
 
 
