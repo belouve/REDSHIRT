@@ -41,7 +41,7 @@ Write-Host "               ... "
 Start-Sleep 3
 # octothorpe the next SendKeys line to NOT have it muted
 # 173 is Mute
-$obj.SendKeys([char]173)
+# $obj.SendKeys([char]173)
 Start-Sleep 1
 Start http://www.priceisrightfailhorn.com/
 # Remove comment octothorpe from below lines to attempt Log Clearing
